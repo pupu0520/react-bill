@@ -20,7 +20,7 @@ const router = createHashRouter([
   },
   {
     path: '/new',
-    element: New
+    element: <New />
   }
 ])
 

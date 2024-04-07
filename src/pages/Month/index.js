@@ -89,7 +89,7 @@ const Month = () => {
           />
         </div>
         {monthDetailBill.keys.map((dateKey) => (
-          <DailyBill key={dateKey}  dayBill={monthDetailBill.group[dateKey]}/>
+          <DailyBill key={dateKey} curData={dateKey} dayBill={monthDetailBill.group[dateKey]}/>
         ))}
       </div>
     </div >
